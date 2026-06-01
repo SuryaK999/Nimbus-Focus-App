@@ -178,6 +178,34 @@ html, body, #svelte, [style*="display: contents"] {
 
 ---
 
+## 📦 Exact Tech Stack Specifications
+
+Below are the exact versions utilized in the development, compilation, and packaging of Nimbus:
+
+### ⚙️ System Runtimes
+- **Rust Compiler**: `v1.95.0` (Rust 2021 Edition)
+- **Node.js**: `v24.14.1`
+- **npm**: `v11.11.0`
+
+### 🦀 Rust Backend Dependencies (`src-tauri/Cargo.toml`)
+- **Tauri Core SDK**: `v2.11.2` *(with tray-icon support)*
+- **Tauri Build Helper**: `v2.6.2`
+- **Tauri Plugins**:
+  - `tauri-plugin-notification`: `v2` *(Native OS Notifications)*
+  - `tauri-plugin-store`: `v2` *(Persistent State Storage)*
+  - `tauri-plugin-shell`: `v2`
+  - `tauri-plugin-process`: `v2`
+  - `tauri-plugin-log`: `v2`
+
+### 🌐 Frontend Web Dependencies (`package.json`)
+- **Svelte**: `v5.55.2` *(Svelte 5 Runes)*
+- **SvelteKit**: `v2.57.0` *(with static adapter `v3.0.10`)*
+- **Tailwind CSS**: `v4.2.2` *(via `@tailwindcss/vite` compiler)*
+- **Vite**: `v8.0.7`
+- **TypeScript**: `v6.0.2`
+
+---
+
 ## 🛠️ Developer Setup & Commands
 
 Ensure you have [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/), and the [Rust toolchain](https://www.rust-lang.org/tools/install) installed.
