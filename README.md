@@ -22,6 +22,26 @@ Nimbus is an ultra-lightweight, premium cross-platform desktop productivity and 
   <img src="https://img.shields.io/badge/TailwindCSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/SuryaK999/Nimbus-Focus-App/releases/latest">
+    <img src="https://img.shields.io/github/v/release/SuryaK999/Nimbus-Focus-App?label=Download%20Latest%20Release&style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="Download Latest Release" />
+  </a>
+</p>
+
+---
+
+## 📥 Download & Installation
+
+To run **Nimbus** as a standalone desktop utility on your system:
+
+1. Navigate to the [GitHub Releases](https://github.com/SuryaK999/Nimbus-Focus-App/releases/latest) page.
+2. Under the **Assets** section of the latest release, download the package matching your operating system:
+   - **Windows**: Download `nimbus_0.1.0_x64-setup.exe` or `.msi`.
+   - **macOS** *(Intel)*: Download `nimbus_0.1.0_x64.dmg`.
+   - **macOS** *(Apple Silicon)*: Download `nimbus_0.1.0_aarch64.dmg`.
+3. Open the installer and follow the standard on-screen instructions.
+4. Once installation completes, launch **Nimbus**. It will run silently in your system tray/menu bar!
+
 ---
 
 ## 📸 App Interface Previews
