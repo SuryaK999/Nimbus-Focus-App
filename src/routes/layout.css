@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+/* Force Webview transparency on all root containers to eliminate white corners */
+html, body, #svelte, [style*="display: contents"] {
+	background: transparent !important;
+	background-color: transparent !important;
+}

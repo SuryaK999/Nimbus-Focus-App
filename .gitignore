@@ -1,0 +1,71 @@
+# ==============================================================================
+# NIMBUS - GITIGNORE CONFIGURATION
+# Covers SvelteKit, Rust (Cargo), Tauri v2, IDEs, and OS-specific files.
+# ==============================================================================
+
+# Node & Package Managers
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Frontend Build & Cache
+.svelte-kit/
+build/
+.output/
+.vercel/
+.netlify/
+.wrangler/
+dist/
+
+# Rust (Cargo) Build Outputs
+# (Ensures Rust target artifacts are ignored globally)
+src-tauri/target/
+target/
+
+# Tauri v2 Generated Schemas
+src-tauri/gen/
+src-tauri/src/gen/
+
+# Local Stores & Databases (Sensitive User Data)
+# (Nimbus saves streaks and presets here during testing)
+nimbus_store.bin
+*.bin
+*.db
+*.log
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+!.env.example
+!.env.test
+
+# IDEs & Editor Configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# OS-Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vite & Development Caches
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
