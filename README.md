@@ -23,9 +23,17 @@ Nimbus is an ultra-lightweight, premium cross-platform desktop productivity and 
 </p>
 
 <p align="center">
-  <a href="https://github.com/SuryaK999/Nimbus-Focus-App/releases/latest">
-    <img src="https://img.shields.io/github/v/release/SuryaK999/Nimbus-Focus-App?label=Download%20Latest%20Release&style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="Download Latest Release" />
+  <a href="https://github.com/SuryaK999/Nimbus-Focus-App/releases/download/v0.1.0/nimbus_0.1.0_x64-setup.exe">
+    <img src="https://img.shields.io/badge/Download%20for-Windows%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" />
   </a>
+  &nbsp;
+  <a href="https://github.com/SuryaK999/Nimbus-Focus-App/releases/download/v0.1.0/nimbus_0.1.0_x64.dmg">
+    <img src="https://img.shields.io/badge/Download%20for-macOS%20x64-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SuryaK999/Nimbus-Focus-App/releases">View all releases & alternative formats</a>
 </p>
 
 ---
